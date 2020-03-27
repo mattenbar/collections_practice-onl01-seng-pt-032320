@@ -29,4 +29,5 @@ end
 def find_a(array)
   new_array = []
   array.each {|x| new_array << x.start_with?("a")}
+  return new_array
 end
