@@ -30,7 +30,7 @@ def find_a(array)
   new_array = []
   array.collect do|x| if x.start_with?("a")
     new_array.push(x)
-  end
+    end
   end
   return new_array
 end
