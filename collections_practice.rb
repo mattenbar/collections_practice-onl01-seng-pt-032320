@@ -44,7 +44,7 @@ array.each_with_index.collect{|element, index|
   if index == 1
 
   else
-    element.push(s)
+    element.push("s")
   end
    }
 end
