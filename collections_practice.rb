@@ -33,5 +33,4 @@ def find_a(array)
   end
   end
   return new_array
-
 end
