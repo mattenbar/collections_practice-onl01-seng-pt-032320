@@ -28,9 +28,10 @@ end
 
 def find_a(array)
   new_array = []
-  array.collect {|x| if x.start_with?("a")
+  array.collect do|x| if x.start_with?("a")
     new_array.push(x)
-  }
+  end
+  end
   return new_array
 
 end
